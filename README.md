@@ -57,6 +57,5 @@ The `DNS1` and `DNS2` environment variables are set to Cloudfares DNS.
 If `WEBPASSWORD` is not set, a random one will be provided.
 You can find this password by grepping the logs, `docker logs pihole | grep random` 
 
-## Password
-Nz0XXJyi
+
 
