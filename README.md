@@ -24,10 +24,27 @@ After the first time setting up, pihole can be started with
 docker start pihole
 ```
 
+### DNS
+Change DNS in network settings to `127.0.0.1` and `::1`.
+
+In macOS you can do reach from `System Preferences > Network > Wi-Fi > Advanced... > DNS`.
+
 ## Stop
 
 ```sh
 docker stop pihole
+```
+
+## Upgrade
+
+```sh
+docker pull pihole/pihole:latest
+
+docker stop pihole
+
+docker rm -f pihole
+
+# From this point follow the Start instructions
 ```
 
 ## Other Docker Cmds
