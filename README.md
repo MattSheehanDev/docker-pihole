@@ -47,26 +47,6 @@ docker rm -f pihole
 # From this point follow the Start instructions
 ```
 
-## Other Docker Cmds
-
-```sh
-# List containers (defaults to currently running containers)
-docker container ls
-
-# List all containers
-docker container ls -a
-
-# Alias for `docker container ls`
-docker ps
-
-# List images (defaults to hiding intermediatary images)
-docker image ls
-
-# List all images
-docker image ls -a
-```
-
-
 ## Customizations
 
 The `DNS1` and `DNS2` environment variables are set to Cloudfares DNS.
